@@ -57,7 +57,7 @@ __*Observação:*__ No projeto foi utilizado o XAMPP para criar e gerenciar o ba
   - __Método showTableTasks:__ Determina o que deve ser mostrado na tabela de tarefas.
   - __Método loadProjects:__ Carrega a lista de projetos no painel de projetos.
 
-  <imagem da tela principal>
+  ![MainScreen](https://github.com/Charlesson-MP/AFazer-Gerenciador-de-Tarefas/assets/86690606/016946a3-d720-4efb-ad8a-cb510402f0e8)
 
 - __Janela de cadastro de projeto:__ Contida no arquivo ProjectDialogScreen.java, esta já é uma extensão da classe JDialog, pois é usada para cadastrar um projeto na lista de projetos e também no banco de dados. Possui um atributo do tipo ProjectController, métodos herdados de sua super classe, um construtor e o  jLabelSaveMouseClicked.
 
@@ -65,7 +65,7 @@ __*Observação:*__ No projeto foi utilizado o XAMPP para criar e gerenciar o ba
 
   - __Método jLabelSaveMouseClicked:__ Salva o projeto com as informações passadas na janela de diálogo.
 
-  <imagem da tela de dialogo de projeto>
+  ![ProjectDialogScreen](https://github.com/Charlesson-MP/AFazer-Gerenciador-de-Tarefas/assets/86690606/86eb850e-5903-4236-8503-9a31d5cc1697)
 
 - __Janela de cadastro de tarefa:__ Salva no arquivo TaskDialogScreen.java, também é uma extensão da classe JDialog, porém esta tem como objetivo cadastrar tarefas. Possui dois atributos, um do TaskController e outro do tipo project. Conta com os métodos herdados da super classe, um construtor, jLabelSaveMouseClicked,  setProject, hideErrorFields e isFieldsValid.
 
@@ -76,7 +76,7 @@ __*Observação:*__ No projeto foi utilizado o XAMPP para criar e gerenciar o ba
   - __Método hideErrorFIelds:__ Torna as labels de erro invisíveis ao abrir a janela de cadastro de tarefa.
   - __Método isFieldsValid:__ Testa se os campos foram devidamente preenchidos. 
 
-  <imagem da janela de cadastro de tarefa>
+  ![TaskDialogScreen](https://github.com/Charlesson-MP/AFazer-Gerenciador-de-Tarefas/assets/86690606/7f79faf7-ffba-4647-a262-85c993800883)
 
 - __Janela de atualização de tarefa:__ Construída no arquivo TaskUpdateDialogScreen.java, é semelhante a janela de cadastro de tarefas, porém ela é acionada quando a coluna 4 da tabela de tarefas é selecionada. Possui atributos do tipo Project, TaskController e Task. Possui dois métodos construtores, jLabel2MouseClicked, isFieldsValid, hideErrorFields e setProject.
 
@@ -87,4 +87,5 @@ __*Observação:*__ No projeto foi utilizado o XAMPP para criar e gerenciar o ba
   - __Método hideErrorFIelds:__ Torna as labels de erro invisíveis ao abrir a janela de cadastro de tarefa.
   - __Método isFieldsValid:__ Testa se os campos foram devidamente preenchidos. 
 
-  <imagem da janela de atualizar tarefa>
+  ![TaskUpdateDialogScreen](https://github.com/Charlesson-MP/AFazer-Gerenciador-de-Tarefas/assets/86690606/00c6ae5d-e2f6-467c-a0fa-120c3e7959a4)
+
