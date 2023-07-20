@@ -57,6 +57,7 @@ public class TaskDialogScreen extends javax.swing.JDialog {
         jLabelDeadLineFieldValidation = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Cadastro de tarefa");
 
         jPanelTitle.setBackground(new java.awt.Color(0, 152, 218));
 
